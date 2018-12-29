@@ -18,3 +18,15 @@
     text-align: center;
     padding-top: 100px;
 }
+.navbar-nav > li > a {
+    color: #6BC7DC !important;
+}
+.navbar-nav .active > .nav-link {
+    color: #FF4495 !important;
+}
+.navbar-nav > li {
+    padding-left:30px;
+    padding-right:30px;
+}
+.navbar-nav > li > a:hover {
+    color: #FF4495 !important;
