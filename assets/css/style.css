@@ -1,0 +1,20 @@
+.paral {
+    min-height: 700px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.paralsec {
+    background-image: url("../img/buiten.jpg");
+}
+.jumbotron {
+    margin-bottom: 0;
+}
+.logo-trans-container {
+    text-align: center;
+    padding-top: 50px;
+}
+.scroll-container {
+    text-align: center;
+    padding-top: 100px;
+}
