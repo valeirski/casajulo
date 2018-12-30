@@ -30,3 +30,37 @@
 }
 .navbar-nav > li > a:hover {
     color: #FF4495 !important;
+}
+a {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+a:hover {
+    color: #FF4495 !important;
+    text-decoration: none !important;
+}
+i {
+    padding-right: 10px;
+}
+.container-fluid {
+    background-color: #E0E0E0;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.btn-secondary {
+    background-color: #E0E0E0 !important;
+    color: #000 !important;
+}
+.btn-secondary:focus {
+    box-shadow: none !important;
+}
+.social-icons-top {
+    padding-right: 15px;
+}
+ul {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.dropdown-menu {
+    min-width: 2rem !important;
+}
