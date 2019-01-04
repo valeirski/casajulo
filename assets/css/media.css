@@ -3,3 +3,13 @@
         justify-content: center !important;
     }
 }
+@media (max-width: 768px) {
+    .heading2 {
+        font-size: 2rem;
+    }
+    .heading1 {
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}

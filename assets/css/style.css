@@ -1,22 +1,21 @@
-.paral {
+.parallax {
     min-height: 700px;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 50% 50%;
-}
-.paralsec {
     background-image: url("../img/buiten.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .jumbotron {
     margin-bottom: 0;
 }
 .logo-trans-container {
     text-align: center;
-    padding-top: 50px;
+    margin-top: 80px;
+    opacity: 0.7;
 }
 .scroll-container {
-    text-align: center;
-    padding-top: 100px;
+    margin-top: 130px;
 }
 .navbar-nav > li > a {
     color: #6BC7DC !important;
@@ -63,4 +62,75 @@ ul {
 }
 .dropdown-menu {
     min-width: 2rem !important;
+}
+.heading1 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: #FF4495;
+    font-size: 2rem;
+}
+.heading2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.content1 {
+    text-align: center;
+}
+.row-embed {
+    width: 829px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.fa-angle-down {
+    color: #FFF;
+    opacity: 0.7;
+    padding: 0;
+}
+.fa-angle-down:hover {
+    color: #FFF;
+    padding: 0;
+    opacity: 1;
+}
+.col-center {
+    margin: 0 auto;
+    float: none !important;
+}
+.carousel {
+    margin: 50px auto;
+    padding: 0 70px;
+}
+.carousel .item {
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    min-height: 290px;
+}
+.carousel .testimonial {
+    padding: 30px 0 10px;
+}
+.carousel .carousel-control {
+    width: 0px;
+    height: 0px;
+    margin-top: -20px;
+    top: 50%;
+    background: none;
+}
+.carousel-control i {
+    font-size: 30px;
+    line-height: 42px;
+    position: absolute;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.fa-smile {
+    font-size: 3em;
+    opacity: 0.7;
+    padding-bottom: 50px;
+}
+.weatherwidget-io-frame {
+    position: relative!important;
 }
