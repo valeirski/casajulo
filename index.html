@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -131,75 +133,131 @@
     </div>
     <!-- Tour video end -->
 
-    <!-- Carousel -->
-    <div class="container d-flex justify-content-center">
-<span class="quotationmark">
-    <i class="fas fa-quote-right"></i>
-    </span>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-center m-auto">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Wrapper carousel items -->
-                    <div class="carousel-inner">
-                        <div class="item carousel-item active">
-                            <i class="far fa-smile"></i>
-                            <p class="content1">"The smell of the ocean never gets old!" Bij aankomen gaan de eerste
-                                gedachten door ons hoofd: "hmm sea, sun ... and a great place to stay!" Yessss! It was a
-                                great place to stay! Gezellige eetgelegenheden, leuke trips en last but not least: De
-                                gezellige huiselijke sfeef van CASA JULO. We loved it! Zeker weten: We komen terug!</p>
-                            <p class="overview"><b>Evelien & Lou.</b></p>
-                        </div>
-                        <div class="item carousel-item">
-                            <i class="far fa-smile"></i>
-                            <p class="content1">"Casa Julo, je was geweldig. Voor de sportievelingen: de rots x
-                                paddlesurfing zijn zeker aan te raden. xxx"</p>
-                            <p class="overview"><b>Guy, Ann & Lars.</b></p>
-                        </div>
-                        <div class="item carousel-item">
-                            <i class="far fa-smile"></i>
-                            <p class="content1">"We hebben er van genoten, gezellig huis, mooie streek, prachtig
-                                weer. Redenen genoeg om zeker terug te komen naar Casa Julo"</p>
-                            <p class="overview"><b>Jos & Monique.</b></p>
-                        </div>
-                        <div class="item carousel-item">
-                            <i class="far fa-smile"></i>
-                            <p class="content1">"La dolce vita" was volgens ons in Italië. Nu kunnen we ook zeggen
-                                dat dat ook bij Casa Julo te beleven valt. Zalig verblijf, prachtig weer en een mooie
-                                omgeving.</p>
-                            <p class="overview"><b>Ellen, Gil, Liam, Lane, Eveline, Jeroen, Tess & Ella.</b></p>
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <header class="text-center no-margin-bottom">
+                <h1 class="heading1">Wat zeggen onze gasten.</h1>
+            </header>
+            <div class="owl-carousel owl-theme testimonials-slider">
+                <div class="item-holder">
+                    <div class="item">
+                        <div class="text">
+                            <div class="quote"><i class="fas fa-quote-right"></i></div>
+                            <p>"La dolce vita" was volgens ons in Italië. Nu kunnen we ook zeggen dat dat ook bij Casa Julo te beleven valt. Zalig verblijf, prachtig weer en een mooie omgeving.</p>
+                            <strong class="name">Ellen, Gil, Liam, Lane, Eveline, Jeroen, Tess & Ella.</strong>
                         </div>
                     </div>
-                    <!-- Carousel controls -->
-                    <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
-                        <i class="fas fa-angle-left"></i>
-                    </a>
-                    <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
-                        <i class="fas fa-angle-right"></i>
-                    </a>
+                </div>
+                <div class="item-holder">
+                    <div class="item">
+                        <div class="text">
+                            <div class="quote"><i class="fas fa-quote-right"></i></div>
+                            <p>"We hebben er van genoten, gezellig huis, mooie streek, prachtig weer. Redenen genoeg om zeker terug te komen naar Casa Julo"</p>
+                            <strong class="name">Jos & Monique.<br><br><br></strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-holder">
+                    <div class="item">
+                        <div class="text">
+                            <div class="quote"><i class="fas fa-quote-right"></i></div>
+                            <p>"Casa Julo, je was geweldig. Voor de sportievelingen: de rots x paddlesurfing zijn zeker aan te raden. xxx"</p>
+                            <strong class="name">Guy, Ann & Lars.</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-holder">
+                    <div class="item">
+                        <div class="text">
+                            <div class="quote"><i class="fas fa-quote-right"></i></div>
+                            <p>"The smell of the ocean never gets old!" Bij aankomen gaan de eerste gedachten door ons hoofd: "hmm sea, sun ... and a great place to stay!" Yessss! It was a great place to stay! Gezellige eetgelegenheden, leuke trips en last but not least: De gezellige huiselijke sfeef van CASA JULO. We loved it! Zeker weten: We komen terug!</p>
+                            <strong class="name">Evelien & Lou.</strong>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Carousel End -->
+    </section>
+    <!-- Testimonials end -->
 
     <!-- Instafeed -->
     <div class="container">
+        <div class="instafeed-padding"></div>
         <div id="instafeed" class="row"></div>
     </div>
     <!-- Instafeed End -->
 
     <!-- Weather -->
     <div class="container weather d-flex justify-content-end">
-        <a class="weatherwidget-io" href="https://forecast7.com/en/38d640d05/calp/" data-mode="Current" data-days="3" data-textcolor="lightblue" data-highcolor="pink" data-lowcolor="lightblue" data-suncolor="pink" data-mooncolor="pink" data-cloudcolor="pink" data-raincolor="lightblue" data-snowcolor="pink" >Calp, Spain</a>
+        <a class="weatherwidget-io" href="https://forecast7.com/en/38d640d05/calp/" data-mode="Current" data-days="3"
+           data-textcolor="lightblue" data-highcolor="pink" data-lowcolor="lightblue" data-suncolor="pink"
+           data-mooncolor="pink" data-cloudcolor="pink" data-raincolor="lightblue" data-snowcolor="pink">Calp, Spain</a>
         <script>
-            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+            !function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = 'https://weatherwidget.io/js/widget.min.js';
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, 'script', 'weatherwidget-io-js');
         </script>
     </div>
     <!-- Weather End -->
 
+    <!-- Back to top -->
 
+    <!-- Back to top end -->
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="assets/img/logo.png" class="logo-footer" width="111" height="121" alt="Casa Julo">
+                </div>
+                <div class="col-md-3">
+                    <h5 class="footer-heading">ONTDEK</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index-nl.html" class="footer-link">Home</a></li>
+                        <li><a href="vakantiewoning.html" class="footer-link">Vakantiewoning</a></li>
+                        <li><a href="prijzen.html" class="footer-link">Prijzen / Beschikbaarheid</a></li>
+                        <li><a href="contact.html" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="footer-heading">VOLG</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="footer-link">Instagram</a></li>
+                        <li><a href="#" class="footer-link">Facebook</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="footer-heading">CONTACT</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="footer-link">info@casajulo.com</a></li>
+                        <li><a href="#" class="footer-link">+32 494 167 927</a></li>
+                        <li><a href="#" class="footer-link">Carrio, Calpe, Spanje</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <hr class="hr1">
+        </div>
+        <div class="container">
+            <div class="row copyright">
+                <div class="col-auto mr-auto">
+                    <a href="www.vbworks.net" target="_blank"><img src="assets/img/favicon-64x64.png" class="vbfavicon"
+                                                                   width="24" height="22" alt="vbworks"></a>
+                </div>
+                <div class="col-auto-copyright">© 2019 casajulo.com. All rights reserved.</div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -213,5 +271,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/instafeed.min.js"></script>
     <script type="text/javascript" src="assets/js/custom.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/js/front.js"></script>
 </body>
 </html>
