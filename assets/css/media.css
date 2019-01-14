@@ -2,35 +2,98 @@
     .navbar-expand-lg .navbar-collapse {
         justify-content: center !important;
     }
+
+    .heading3 {
+        margin-top: 0rem !important;
+    }
 }
+
 @media (max-width: 768px) {
     .heading2 {
         font-size: 2rem;
     }
+
     .heading1 {
         font-size: 1.5rem;
         margin-top: 3rem;
         margin-bottom: 3rem;
     }
+
     .footer-heading {
-        margin-top: 1rem;
+        margin-top: 2rem;
         font-size: 1rem;
     }
+
     .footer-link {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
+
     .logo-footer {
         margin-bottom: 3rem;
     }
+
+    .table td, th {
+        font-size: 0.8rem;
+    }
+
+    .kosten {
+        font-size: 0.8rem;
+    }
+
+    footer.main-footer ul > li {
+        margin-bottom: 0.3rem;
+    }
+
+    .logo-footer {
+        margin: auto;
+        display: block;
+    }
+
+    .heading3 {
+        margin-top: 3rem;
+    }
 }
+
 @media (max-width: 1199px) {
     section.testimonials .item {
         -webkit-box-shadow: -5.665px 9.429px 25px 0px rgba(0, 0, 0, 0.2);
         box-shadow: -5.665px 9.429px 25px 0px rgba(0, 0, 0, 0.2);
         padding: 60px 40px 40px;
     }
+
     section.testimonials .item .avatar {
         position: absolute;
         top: 0;
         left: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .text-carousel {
+        font-size: 0.9rem;
+    }
+
+    .text-carousel-drone {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .text-carousel {
+        font-size: 1rem;
+    }
+
+    .reverse {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .contact-text {
+        margin-top: 2rem;
+    }
+
+    .heading3 {
+        margin-top: 3rem;
+        font-size: 1.4rem;
+    }
 }
