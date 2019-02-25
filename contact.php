@@ -7,9 +7,9 @@
           ini_set( 'display_errors', 1 );
           error_reporting( E_ALL );
           $from = $_POST["email"];
-          $to = "info@broodjeskoerier.be";
+          $to = "broodjeskoerier@gmail.com";
           $subject = "contact formulier casajulo" . $_POST["name"];
-          $message = $_POST["address"] . "\r\n" . $_POST["message"];
+          $message = $_POST["message"];
           $headers = "From:" . $from;
           if(mail($to,$subject,$message, $headers)) {
             echo "<h1>Uw bericht werd verzonden.<h1>";
